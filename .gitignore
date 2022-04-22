@@ -7,3 +7,4 @@ tests/run-tests.log
 vendor
 composer.lock
 .phpunit.result.cache
+.idea
