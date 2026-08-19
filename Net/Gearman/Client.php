@@ -258,7 +258,7 @@ class Net_Gearman_Client
         $t          = 0;
 
         if ($timeout !== null) {
-            $socket_timeout = min(10, (int)$timeout);
+            $socket_timeout = (int) $timeout;
         } else {
             $socket_timeout = 10;
         }
